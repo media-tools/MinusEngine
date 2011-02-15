@@ -1,6 +1,7 @@
 MinusEngine
 ===========
 A fully asynchronous C# library to access [Minus API](http://min.us/pages/api).
+Also includes support for Windows Phone 7
 
 License
 -------
