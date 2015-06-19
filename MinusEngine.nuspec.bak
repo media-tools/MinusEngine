@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MinusEngine</id>
+    <version>2.0.2</version>
+    <title>MinusEngine</title>
+    <authors>min.us, Colin Edwards, Tobias Schulz</authors>
+    <owners>tobiasschulz</owners>
+    <licenseUrl>http://choosealicense.com/licenses/apache-2.0/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An asynchronous C# library to access Minus API made by Colin Edwards</description>
+    <summary>An asynchronous C# library to access Minus API made by Colin Edwards</summary>
+    <releaseNotes></releaseNotes>
+    <language>en-US</language>
+    <tags>minus</tags>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="6.0.8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="MinusEngine/bin/$configuration$/MinusEngine.dll" target="lib/net45/" />
+  </files>
+</package>
